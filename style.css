@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 1440px;
+    height: 100vh;
+}
+
+header {
+    background-image: url(source/spacejoy-9M66C_w_ToM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+nav {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__links li:hover {
+    transition: 0.9s;
+    transform: scale(1.1);
+} 
+
+li a{
+    margin: 0px 80px;
+    text-decoration: none;
+    color: black;
+}
+
+#home__btn{
+    font-size: 24px;
+}
+
+.about__container {
+    height: 50vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.first__section__title {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card__section {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 60px;
+}
+
+.card__info {
+    padding: 20px;
+    border-radius: 12px;
+}
